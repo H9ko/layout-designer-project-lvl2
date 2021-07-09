@@ -68,15 +68,20 @@ h2 {
   text-transform: uppercase;
 }
 
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .section {
-  width: 1200px;
+  width: 1240px;
   margin: 0 auto;
 }
 
 .header-absolute {
   padding-top: 25px;
   padding-left: 120px;
-  padding-right: 120px;
+  padding-right: 110px;
   font-size: 11px;
 }
 
@@ -188,8 +193,8 @@ h2 {
   margin-right: 24px;
 }
 
-.mb-30 {
-  margin-bottom: 30px;
+.mb-35 {
+  margin-bottom: 35px;
 }
 
 .mt-17 {
@@ -231,9 +236,9 @@ h2 {
 
 .logo::before {
   position: absolute;
-  left: -36px;
-  width: 20px;
-  height: 20px;
+  left: -40px;
+  width: 24px;
+  height: 24px;
   background-image: url(../images/logo.svg);
   background-repeat: no-repeat;
   background-size: cover;
