@@ -1,0 +1,70 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: map-get($colors, "gray-dark");
+  background-color: map-get($colors, "black");;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 1.5;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.section {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header-absolute {
+  padding-top: 25px;
+  padding-left: 120px;
+  padding-right: 120px;
+  font-size: 11px;
+}
+
+.search-input {
+  border-radius: 50px;
+  border: none;
+  font-size: 13.3px;
+  background-color: map-get($colors, "dark");
+  padding: 5px 0 5px 10px;
+}
+
+.input {
+  min-width: 270px;
+  min-height: 50px;
+  padding-left: 20px;
+  margin-bottom: 1.5rem;
+  border: 2px solid map-get($colors, "gray-dark");
+  border-radius: 3px;
+  background:rgba(0,0,0,0);
+  &::placeholder {
+    color: map-get($colors, "white");
+  }
+}
+.btn {
+  padding: 20px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.btn-green {
+  background-color: map-get($colors, "green");
+  color: map-get($colors, "white");
+  border: 1px solid map-get($colors, "green");
+}
+#page-description form {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 570px;
+}

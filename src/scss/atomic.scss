@@ -1,0 +1,88 @@
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+.mr-auto{
+  margin-right: auto;
+}
+.ml-40 {
+  margin-left: 40px;
+}
+.mr-24 {
+  margin-right: 24px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mt-17 {
+  margin-top: 17px;
+}
+.mr-90 {
+  margin-right: 90px;
+}
+.pt-200 {
+  padding-top: 200px;
+}
+.pb-200 {
+  padding-bottom: 200px;
+}
+
+.text-size-1{
+  font-size: 16px;
+}
+
+.text-white {
+  color: map-get($colors, "white");
+}
+

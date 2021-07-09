@@ -19,7 +19,7 @@
     "stylelint-order": "^4.1.0",
     "stylelint-prettier": "^1.1.2",
     "stylelint-scss": "^3.18.0",
-    "surge": "^0.21.6"
+    "surge": "^0.21.7"
   },
   "repository": "https://github.com/AlexandrKoliukh/layout-designer-project-lvl2.git",
   "author": "Alexandr Koliukh",

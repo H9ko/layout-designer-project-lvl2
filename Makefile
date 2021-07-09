@@ -2,7 +2,7 @@ install:
 	npm install
 
 lint:
-	npx stylelint ./src/styles/**/*.scss
+	npx stylelint ./src/css/**/*.scss
 	npx htmlhint ./src/*.html
 
 deploy:
@@ -10,7 +10,7 @@ deploy:
 	npx surge --project ./src/ --domain  alk-music-box.surge.sh
 
 sass:
-	npx sass ./src/styles/scss/app.scss ./src/styles/style.css
+	npx sass ./src/scss/app.scss ./src/css/style.css
 
 sass-watch:
-	npx sass --watch ./src/styles/scss/app.scss:./src/styles/style.css
+	npx sass --watch ./src/scss/app.scss:./src/css/style.css
