@@ -81,6 +81,7 @@ h2 {
 }
 
 .search-input {
+  width: 250px;
   border-radius: 50px;
   border: none;
   font-size: 13.3px;
