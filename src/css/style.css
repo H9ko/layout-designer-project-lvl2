@@ -99,21 +99,16 @@ h2 {
   padding-left: 120px;
   padding-right: 110px;
   font-size: 11px;
+  line-height: 13px;
 }
-@media (max-width: 425px) {
-  .header-absolute {
-    padding-top: 30px;
-  }
-}
-
 @media (max-width: 425px) {
   .header-absolute {
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 700;
-    line-height: 13px;
+    font-weight: 700;
   }
 }
+
 .search-input {
   width: 250px;
   border-radius: 50px;
