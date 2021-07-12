@@ -63,6 +63,7 @@ h2 {
   font-size: 13.3px;
   background-color: map-get($colors, "dark");
   padding: 5px 0 5px 10px;
+  
 }
 
 .input {
@@ -75,9 +76,6 @@ h2 {
   background:rgba(0,0,0,0);
   &::placeholder {
     color: map-get($colors, "white");
-  }
-  @media (max-width: map-get($breakpoints, "sm")) {
-    width: 100%;
   }
 }
 .btn {
