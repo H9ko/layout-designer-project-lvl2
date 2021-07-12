@@ -5,6 +5,7 @@ html {
   color: map-get($colors, "gray-dark");
   background-color: map-get($colors, "black");
 }
+
 a {
   color: map-get($colors, "gray-dark");
   text-decoration: none;
