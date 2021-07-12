@@ -48,7 +48,7 @@ input {
 
 html {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
   color: #cacaca;
   background-color: #08020d;
@@ -288,6 +288,7 @@ h2 {
 
 .text-size-1 {
   font-size: 16px;
+  line-height: 24px;
 }
 
 .text-white {
