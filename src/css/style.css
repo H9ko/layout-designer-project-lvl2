@@ -275,6 +275,10 @@ h2 {
   margin-top: 17px;
 }
 
+.mr-16 {
+  margin-right: 16px;
+}
+
 .mr-90 {
   margin-right: 90px;
 }
@@ -302,22 +306,9 @@ h2 {
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-  position: relative;
-  margin-left: 40px;
-}
-
-.logo::before {
-  position: absolute;
-  left: -40px;
-  width: 24px;
-  height: 24px;
   background-image: url(../images/logo.svg);
-  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  content: "";
 }
 
 /*# sourceMappingURL=style.css.map */
