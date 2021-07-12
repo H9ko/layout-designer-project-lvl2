@@ -11,21 +11,21 @@
 
 <body>
   <header class="absolute header-absolute w-100">
-    <div class="d-flex justify-content-between align-items-center ">
-      <div class="logo mr-90">Music BOX</div>
-      <nav class="mr-auto">
-        <ul class="d-flex">
-          <li class="mr-24">ГЛАВНАЯ</li>
-          <li class="mr-24">КАТАЛОГ</li>
-          <li class="mr-24">ИСПОЛНИТЕЛИ</li>
-          <li>КОНТАКТЫ</li>
+    <div class="d-flex flex-center sm-flex-left sm-flex-column">
+      <div class="logo mr-90 sm-mb-25">Music BOX</div>
+      <nav class="mr-auto sm-mb-25">
+        <ul class="d-flex sm-flex-column">
+          <li class="mr-24 sm-mb-3"><a href="#">ГЛАВНАЯ</a></li>
+          <li class="mr-24 sm-mb-3"><a href="#">КАТАЛОГ</a></li>
+          <li class="mr-24 sm-mb-3"><a href="#">ИСПОЛНИТЕЛИ</a></li>
+          <li><a href="#">КОНТАКТЫ</a></li>
         </ul>
       </nav>
       <input class="search-input" type="input" placeholder="ПОИСК..." />
     </div>
   </header>
   <main>
-    <div id="page-description" class="header-bg pt-200 pb-200 text-white">
+    <div id="page-description" class="header-bg page-description text-white">
       <div class="section">
         <div class="text-center">
           <h1>онлайн музыка где угодно</h1>
@@ -34,9 +34,9 @@
           </div>
         </div>
         <form class="mt-17">
-          <div class="d-flex justify-content-between">
-            <input class="input text-white" type="input" placeholder="Имя..." />
-            <input class="input text-white" type="input" placeholder="Email..." />
+          <div class="d-flex justify-content-between sm-flex-column">
+            <input class="input text-white" type="text" placeholder="Имя..." />
+            <input class="input text-white" type="text" placeholder="Email..." />
           </div>
           <button class="btn btn-green w-100" type="submit">Получить доступ</button>
         </form>
