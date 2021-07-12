@@ -100,11 +100,18 @@ h2 {
   padding-right: 110px;
   font-size: 11px;
 }
+@media (max-width: 425px) {
+  .header-absolute {
+    padding-top: 30px;
+  }
+}
 
 @media (max-width: 425px) {
   .header-absolute {
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 700;
+    line-height: 13px;
   }
 }
 .search-input {
@@ -254,6 +261,10 @@ h2 {
 @media (max-width: 425px) {
   .sm-mb-25 {
     margin-bottom: 25px;
+  }
+
+  .sm-mb-20 {
+    margin-bottom: 20px;
   }
 
   .sm-mb-3 {
