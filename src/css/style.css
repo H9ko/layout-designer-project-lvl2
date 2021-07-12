@@ -81,6 +81,7 @@ h2 {
 @media (max-width: 425px) {
   h2 {
     font-size: 18px;
+    line-height: 27px;
   }
 }
 .wrapper {
