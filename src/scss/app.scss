@@ -9,6 +9,9 @@
   background-position: center;
   background-size: cover;
   height: 750px;
+  @media screen and (max-width: 425px) {
+    height: 853px;
+  }
 }
 .logo{
   background-image: url(../images/logo.svg);
