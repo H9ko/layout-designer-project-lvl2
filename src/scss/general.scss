@@ -7,37 +7,54 @@ html {
 }
 
 a {
-  color: map-get($colors, "gray-dark");
+  color: map-get($colors, "white");
   text-decoration: none;
 }
 
+
 h1 {
-  font-size: 60px;
-  line-height: 1.5;
+  font-size: 3.75rem;
+  line-height: 5.625rem;
   font-weight: bold;
   text-transform: uppercase;
 }
-@media (max-width: map-get($breakpoints, "sm")) {
+@media screen and (max-width: 768px) {
   h1 {
-    font-size: 30px;
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 1.875rem;
+    line-height: 2.8125rem;
   }
 }
 
 h2 {
-  font-size: 38px;
-  line-height: 57px;
+  margin-bottom: 3rem;
+  font-size: 2.375rem;
+  line-height: 3.5625rem;
   font-weight: bold;
   text-transform: uppercase;
 }
-@media (max-width: map-get($breakpoints, "sm")) {
+@media screen and (max-width: 425px) {
   h2 {
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
   }
 }
-.wrapper {
-  max-width: 1440px;
-  margin: 0 auto;
+
+h3 {
+  font-size: 1.875rem;
+  line-height: 2.8125rem;
+  font-weight: 400;
+}
+@media screen and (max-width: 425px) {
+  h3 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
 .section {
@@ -58,7 +75,9 @@ h2 {
   }
 }
 
-
+.header-absolute li {
+  margin-right: 24px;
+}
 .search-input {
   width: 250px;
   border-radius: 50px;
@@ -94,6 +113,10 @@ h2 {
 
 .flex-center {
   justify-content: space-between;
+  align-items: center;
+}
+
+.flex-align-center {
   align-items: center;
 }
 

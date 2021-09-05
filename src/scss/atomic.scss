@@ -5,7 +5,9 @@
 .flex-wrap {
   flex-wrap: wrap;
 }
-
+.text-nowrap {
+  white-space: nowrap;
+}
 .text-bold {
   font-weight: 700;
 }
@@ -117,5 +119,9 @@
 
 .text-white {
   color: map-get($colors, "white");
+}
+
+.text-uppercase {
+  text-transform: uppercase;
 }
 
