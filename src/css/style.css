@@ -113,6 +113,7 @@ h3 {
   max-width: 1240px;
   margin: 0 auto;
 }
+
 @media screen and (max-width: 425px) {
   .section {
     margin-top: 50px;
