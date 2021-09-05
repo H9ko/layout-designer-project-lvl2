@@ -10,7 +10,10 @@ a {
   color: map-get($colors, "white");
   text-decoration: none;
 }
-
+header a{
+  font-size: 0.6875rem;
+  line-height: 0.805625rem;
+}
 
 h1 {
   font-size: 3.75rem;
