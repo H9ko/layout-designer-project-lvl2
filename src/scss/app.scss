@@ -13,6 +13,33 @@
     height: 853px;
   }
 }
+
+.bg-black{
+  background-color: map-get($colors, "black");
+  height: 750px;
+  @media screen and (max-width: 425px) {
+    height: 853px;
+  }
+}
+
+.bg-subscribe-1 {
+  background-image: url('../images/subscribe-1.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-subscribe-2 {
+  background-image: url('../images/subscribe-2.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-subscribe-3 {
+  background-image: url('../images/subscribe-3.png');
+  background-position: center;
+  background-size: cover;
+}
+
 .logo{
   background-image: url(../images/logo.svg);
   background-size: cover;

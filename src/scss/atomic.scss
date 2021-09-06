@@ -16,11 +16,6 @@
   flex-direction: column;
 }
 
-@media (max-width: map-get($breakpoints, "sm")) {
-  .sm-flex-column {
-    flex-direction: column;
-  }
-}
 .flex-row-reverse {
   flex-direction: row-reverse;
 }
@@ -68,18 +63,24 @@
 .mr-auto{
   margin-right: auto;
 }
+.mr-24 {
+  margin-right: 24px;
+}
+.mr-47 {
+  margin-right: 47px;
+}
 
 .ml-40 {
   margin-left: 40px;
 }
-.mr-24 {
-  margin-right: 24px;
-}
+
 
 .mb-35 {
   margin-bottom: 35px;
 }
-
+.mb-64 {
+  margin-bottom: 64px;
+}
 @media (max-width: map-get($breakpoints, "sm")) {
   .sm-mb-25{
     margin-bottom: 25px;
@@ -96,6 +97,21 @@
   .sm-pb-3{
     padding: 1.5px 0;
   }
+  .sm-flex-column {
+    flex-direction: column;
+  }
+  .sm-align-item-start {
+    align-self: flex-start;
+  }
+  .sm-my-22{
+    margin: 0 22px;
+  }
+  .sm-mr-0{
+    margin-right: 0px;
+  }
+  .sm-mb-27{
+    margin-bottom: 27px;
+  }
 }
 
 .mt-17 {
@@ -107,7 +123,9 @@
 .mr-90 {
   margin-right: 90px;
 }
-
+.mt-100 {
+  margin-top: 100px;
+}
 .pt-200 {
   padding-top: 200px;
 }
@@ -120,6 +138,14 @@
   line-height: 24px;
 }
 
+.text-size-2{
+  font-size: 24px;
+  line-height: 36px;
+}
+.text-size-3{
+  font-size: 32px;
+  line-height: 48px;
+}
 .text-white {
   color: map-get($colors, "white");
 }
